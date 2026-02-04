@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Помощь с учебными проектами | Решение задач по программированию</title>
+    
+    <!-- SEO мета-теги -->
+    <meta name="description" content="Помощь с учебными проектами: создание сайтов, решение задач по программированию и математике для школьников и студентов. Студент техвуза, оплата после выполнения.">
+    <meta name="keywords" content="помощь с учебой, решение задач, создание сайтов для школы, программирование для школьников, математика помощь">
+    
+    <!-- Иконки Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Наш CSS файл -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Учебная<span>Помощь</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#how">Как работаю</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="header-btn">Заказать</a>
+        </div>
+    </header>
+
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero">
+        <div class="container">
+            <h1>Помощь с учебными проектами и задачами</h1>
+            <p>Студент технического вуза решу задачи по программированию, математике, создам сайт для проекта. Оплата после выполнения работы.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Посмотреть услуги</a>
+                <a href="https://t.me/ваш_логин" target="_blank" class="btn btn-secondary">Написать в Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Чем могу помочь</h2>
+            <div class="services-grid">
+                <!-- Услуга 1 -->
+                <div class="service-card">
+                    <span class="service-icon">💻</span>
+                    <h3 class="service-title">Создание сайтов для проектов</h3>
+                    <p class="service-desc">Сайт-визитка или лендинг для вашего школьного проекта</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Адаптивный дизайн</li>
+                        <li><i class="fas fa-check"></i> На Tilda или чистый HTML/CSS</li>
+                        <li><i class="fas fa-check"></i> Инструкция по использованию</li>
+                        <li><i class="fas fa-check"></i> Базовая SEO-оптимизация</li>
+                    </ul>
+                    <div class="service-price">от 1500 ₽</div>
+                    <button class="service-btn" data-service="Создание сайтов для проектов">Заказать эту услугу</button>
+                </div>
+                
+                <!-- Услуга 2 -->
+                <div class="service-card">
+                    <span class="service-icon">🐍</span>
+                    <h3 class="service-title">Решение задач по программированию</h3>
+                    <p class="service-desc">Помощь с кодом на Python, C++, Java, Pascal</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Отладка и исправление ошибок</li>
+                        <li><i class="fas fa-check"></i> Подробные комментарии в коде</li>
+                        <li><i class="fas fa-check"></i> Объяснение алгоритма решения</li>
+                        <li><i class="fas fa-check"></i> Гарантия работоспособности</li>
+                    </ul>
+                    <div class="service-price">от 300 ₽</div>
+                    <button class="service-btn" data-service="Решение задач по программированию">Заказать эту услугу</button>
+                </div>
+                
+                <!-- Услуга 3 -->
+                <div class="service-card">
+                    <span class="service-icon">📊</span>
+                    <h3 class="service-title">Математика и физика</h3>
+                    <p class="service-desc">Решение задач по алгебре, геометрии, физике</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Подробное пошаговое решение</li>
+                        <li><i class="fas fa-check"></i> Объяснение теории "на пальцах"</li>
+                        <li><i class="fas fa-check"></i> Чертежи и графики</li>
+                        <li><i class="fas fa-check"></i> Подготовка к ОГЭ/ЕГЭ</li>
+                    </ul>
+                    <div class="service-price">от 500 ₽</div>
+                    <button class="service-btn" data-service="Математика и физика">Заказать эту услугу</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КАК Я РАБОТАЮ -->
+    <section id="how" class="section steps-section">
+        <div class="container">
+            <h2 class="section-title">Как происходит работа</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Заявка</h3>
+                    <p class="step-desc">Вы описываете задачу, присылаете материалы</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Оценка</h3>
+                    <p class="step-desc">Я называю точную цену и сроки выполнения</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Выполнение</h3>
+                    <p class="step-desc">Делаю работу, добавляю пояснения к решению</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Результат</h3>
+                    <p class="step-desc">Вы получаете решение, проверяете и оплачиваете</p>
+                </div>
+            </div>
+            <p class="payment-note">
+                💡 Оплата только после выполнения и проверки работы!
+            </p>
+        </div>
+    </section>
+
+    <!-- ПОРТФОЛИО -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Примеры работ</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="sites">Сайты</button>
+                <button class="filter-btn" data-filter="code">Программирование</button>
+                <button class="filter-btn" data-filter="math">Математика</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Работа 1 -->
+                <div class="portfolio-item" data-category="sites">
+                    <div class="portfolio-img">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Сайт для проекта</span>
+                        <h3 class="portfolio-title">Лендинг для исследования по экологии</h3>
+                        <p class="portfolio-desc">Сайт для школьного проекта с графиками и результатами исследования</p>
+                        <div class="portfolio-tech">HTML, CSS, JavaScript, Chart.js</div>
+                    </div>
+                </div>
+                
+                <!-- Работа 2 -->
+                <div class="portfolio-item" data-category="code">
+                    <div class="portfolio-img">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Программирование</span>
+                        <h3 class="portfolio-title">Телеграм-бот для викторины</h3>
+                        <p class="portfolio-desc">Бот с вопросами по истории для школьного мероприятия</p>
+                        <div class="portfolio-tech">Python, aiogram, SQLite</div>
+                    </div>
+                </div>
+                
+                <!-- Работа 3 -->
+                <div class="portfolio-item" data-category="math">
+                    <div class="portfolio-img">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Математика</span>
+                        <h3 class="portfolio-title">Решение задач по стереометрии</h3>
+                        <p class="portfolio-desc">Подробное решение 15 задач с чертежами и пояснениями</p>
+                        <div class="portfolio-tech">Геометрия, чертежи, доказательства</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">Часто спрашивают</h2>
+            <div class="faq-container">
+                <!-- Вопрос 1 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Как происходит оплата?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Оплата только после выполнения работы. Вы получаете решение, проверяете его, затем оплачиваете удобным способом (карта, СБП, перевод).
+                    </div>
+                </div>
+                
+                <!-- Вопрос 2 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Вы гарантируете сроки?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Да, я называю срок до начала работы и строго его соблюдаю. При задержке по моей вине — скидка 20%.
+                    </div>
+                </div>
+                
+                <!-- Вопрос 3 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Даете ли вы объяснения к решению?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Да, обязательно! К каждому решению я добавляю комментарии и пояснения, чтобы вы могли разобраться и защитить работу.
+                    </div>
+                </div>
+                
+                <!-- Вопрос 4 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Работаете ли вы срочно?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Да, беру срочные заказы (до 24 часов). Стоимость срочной работы выше на 50%.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ И ФОРМА -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-section">
+                <div class="contact-container">
+                    <!-- Контактная информация -->
+                    <div class="-info">
+                        <h3>Свяжитесь со мной</h3>
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fab fa-telegram"></i>
+                                <div>
+                                    <strong>Telegram</strong>
+                                    <p>@dimass6996</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>boss.temirsos33@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong>Часы работы</strong>
+                                    <p>Пн-Вс 10:00-22:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="response-time">Отвечаю в течение 30 минут в рабочее время</p>
+                        <div class="social-icons">
+                            <a href="https://t.me/ваш_логин" target="_blank" aria-label="Telegram">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="https://vk.com/ваш_логин" target="_blank" aria-label="VK">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="https://github.com/ваш_логин" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Форма заявки -->
+                    <div class="contact-form">
+                        <h3>Отправить заявку</h3>
+                        <form id="orderForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя *</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Иван Иванов" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">Email или Telegram *</label>
+                                <input type="text" id="contact-data" name="contact-data" class="form-control" placeholder="email@example.com или @username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Тип услуги *</label>
+                                <select id="service" name="service" class="form-control" required>
+                                    <option value="" disabled selected>Выберите услугу</option>
+                                    <option value="Создание сайта для проекта">Создание сайта для проекта</option>
+                                    <option value="Решение задач по программированию">Решение задач по программированию</option>
+                                    <option value="Решение задач по математике/физике">Решение задач по математике/физике</option>
+                                    <option value="Создание презентации">Создание презентации</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Описание задачи *</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Опишите подробно вашу задачу, приложите файлы если есть..." required></textarea>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="agree" name="agree" required>
+                                <label for="agree">Я согласен на обработку персональных данных *</label>
+                            </div>
+                            <button type="submit" class="submit-btn">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">Учебная<span>Помощь</span></div>
+                    <p class="footer-description">Помощь с учебными проектами, задачами по программированию и математике для школьников и студентов. Качественно, с пояснениями, оплата после выполнения.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#how">Как работаю</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-paper-plane"></i> Telegram: @dimass6996</p>
+                    <p><i class="fas fa-envelope"></i> ваш.email@example.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> УчебнаяПомощь. Все права защищены. Услуги оказываются в рамках помощи с учебным процессом.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключаем JavaScript файл -->
+    <script src="script.js"></script>
+</body>
+</html>
